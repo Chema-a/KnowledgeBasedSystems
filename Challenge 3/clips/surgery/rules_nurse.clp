@@ -1,0 +1,1 @@
+(defrule r1(patient ready) => (printout t"El paciente ha sido trado por la enfermera y será pasado a anestesia" crlf)(assert(patient anesthesize)))
