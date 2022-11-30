@@ -33,6 +33,7 @@ public class MedAgent2 extends Agent{
                 clips.clear();
               
             } else {
+                System.out.println("El dentista está esperando pacientes");
                 block();
             }
 

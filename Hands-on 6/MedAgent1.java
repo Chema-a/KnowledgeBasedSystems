@@ -37,6 +37,7 @@ public class MedAgent1 extends Agent {
                     clips.clear();
                     
                 } else {
+                    System.out.println("El cardiologo está esperando pacientes");
                     block();
                 }
 

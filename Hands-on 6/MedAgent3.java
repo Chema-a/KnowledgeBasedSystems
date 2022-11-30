@@ -33,6 +33,7 @@ public class MedAgent3 extends Agent{
                         clips.clear();
                         
                     } else {
+                        System.out.println("El dermatologo está esperando pacientes");
                         block();
                     }
         

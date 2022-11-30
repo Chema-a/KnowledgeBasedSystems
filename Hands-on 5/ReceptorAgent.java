@@ -38,6 +38,8 @@ public class ReceptorAgent extends Agent {
                     clips.clear();
                     
                 } else {
+                    System.out.println("El doctor está esperando pacientes");
+
                     block();
                 }
 

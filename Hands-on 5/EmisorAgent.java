@@ -17,7 +17,7 @@ public class EmisorAgent extends Agent {
     protected void setup() {
         addBehaviour(new OneShotBehaviour() {
             public void action() {
-                System.out.println("Han llegado dos pacientes, uno llamado ISRAEL a revisión con los sintomas de ULCERAS BOCALES, MANCHAS EN BOCA Y DIFICULTAD PARA COMER y José con ARTICULACIONES INFLAMADAS, MANCHAS ROJAS EN PIEL Y ARDOR , enseguida será diagnosticado");
+                System.out.println("Ha llegado un el paciente Juan a revisión con los sintomas de CANSANCIO, FIEBRE Y DOLOR ESTOMACAL, enseguida será diagnosticado");
                 ACLMessage msg = new ACLMessage(ACLMessage.INFORM);
                 msg.setContent("(paciente (nombre Juan)(sintoma1 cansancio) (sintoma2 fiebre) (sintoma3 dolor-estomago))");
                 msg.addReceiver(new AID("doctor",AID.ISLOCALNAME));
