@@ -8,7 +8,7 @@
 
 
 (defrule infeccion-estomacal
-     (paciente (nombre ?n)(sintoma1 cansancio) (sintoma2 fiebre) (sintoma3 dolor-estomacal))
+     (paciente (nombre ?n)(sintoma1 cansancio) (sintoma2 fiebre) (sintoma3 dolor-estomago))
    =>
    (printout t "El paciente " ?n " una infección estomacal" crlf))
 
